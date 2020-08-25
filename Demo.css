@@ -1,0 +1,48 @@
+.article1 {
+    background: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin: 5px;
+    flex-basis: 25%;
+  }
+.demo{
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+}
+footer{
+  padding : 20px;
+  border: solid 1px black;
+}
+
+header{
+  padding : 1px;
+  border: solid 1px black;
+  font-size: large;
+  padding-left: 20px;
+}
+.item1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start; 
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside{
+  background: rgb(212, 208, 208);
+  font-style: italic;
+  padding-left: 15px;
+  margin-left: 15px;
+}
+
+.summary{
+  padding: 20px;
+}
+.summary>h2{
+  color: rgb(95, 200, 235);
+}
